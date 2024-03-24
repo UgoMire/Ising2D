@@ -1,5 +1,9 @@
 module Ising2D
 
-# Write your package code here.
+export LatticeConfiguration
+export magnetisation
+export average
+
+include("lattice.jl")
 
 end
