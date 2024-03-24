@@ -2,9 +2,9 @@ struct Lattice
     L::Int32 # Lattice size in each direction.
     N::Int32 # Total number of site: L * L.
 
-    J::Int32 # Nearest neightboor coupling.
-    H::Int32 # External magnetic field.
-    T::Int32 # Temperature.
+    J::Float64 # Nearest neightboor coupling.
+    H::Float64 # External magnetic field.
+    T::Float64 # Temperature.
 
     spinstate::Array{Float64,2} # Current spin configuration on the lattice.
 

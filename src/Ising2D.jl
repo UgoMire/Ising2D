@@ -9,8 +9,9 @@ export average
 
 export switchspin!
 export switch_random_spin
+export generate_configuration
 
-export plot_configuration
+export plot_configs
 
 include("lattice.jl")
 include("monte-carlo.jl")
