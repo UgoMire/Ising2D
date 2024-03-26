@@ -6,7 +6,7 @@ function plot_configs(configs)
     sg = SliderGrid(fig[2, 1], (label = "step", range = 1:size(configs, 3), startvalue = 1))
     ilift = sg.sliders[1].value
 
-    heatmap!(ax, (@lift configs[:, :, $ilift]))
+    heatmap!(ax, (@lift configs[:, :, $ilift]); colormap = :deep)
 
     return fig
 end
