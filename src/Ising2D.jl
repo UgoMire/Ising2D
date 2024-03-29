@@ -1,6 +1,6 @@
 module Ising2D
 
-using GLMakie
+using Makie
 
 export Lattice
 export magnetisation
